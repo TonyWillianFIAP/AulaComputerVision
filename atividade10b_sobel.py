@@ -34,7 +34,7 @@ import cv2
 import numpy as np
 
 # ─── Configuração ─────────────────────────────────────────────────────────────
-IMG_PATH = "lena.jpg"
+IMG_PATH = "figura26a.png"
 
 # =============================================================================
 #  FUNÇÕES AUXILIARES

@@ -32,7 +32,7 @@ import cv2
 import numpy as np
 
 # ─── Configuração ─────────────────────────────────────────────────────────────
-IMG_PATH = "lena.jpg"
+IMG_PATH = "figura26a.png"
 SIGMA_PRE_BLUR = 1.0   # sigma para suavização gaussiana antes do Laplaciano
 
 # =============================================================================
