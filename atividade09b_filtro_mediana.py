@@ -26,7 +26,7 @@ import cv2
 import numpy as np
 
 # ─── Configuração ─────────────────────────────────────────────────────────────
-IMG_PATH     = "circuito.jpg"   # ideal para ver preservação de bordas
+IMG_PATH     = "lena.jpg"   # ideal para ver preservação de bordas
                                   # (tente também lena.jpg, cameraman.tif)
 NOISE_FRAC   = 0.05              # 5% dos pixels com ruído sal-e-pimenta
 KERNELS      = [3, 5, 7, 11]     # tamanhos de kernel para comparação
