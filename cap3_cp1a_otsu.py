@@ -8,13 +8,11 @@ def main():
         print("Erro ao carregar imagem")
         return
 
-    # --- Otsu SEM suavizacao ---
     k_sem, img_otsu_sem = cv2.threshold(
         img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU
     )
     print(f"Otsu sem gaussiana: k = {k_sem}")
 
-    # --- Otsu COM suavizacao Gaussiana ---
     img_smooth = cv2.GaussianBlur(img, (7, 7), 1.5)
     k_com, img_otsu_com = cv2.threshold(
         img_smooth, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU

@@ -8,9 +8,6 @@ def main():
         print("Erro ao carregar imagem")
         return
 
-    # Experimente diferentes limiares:
-    # threshold1=50, threshold2=150  -> equilibrado
-    # threshold1=100, threshold2=200 -> mais seletivo
     img_canny_1 = cv2.Canny(img, threshold1=50, threshold2=150)
     img_canny_2 = cv2.Canny(img, threshold1=100, threshold2=200)
 

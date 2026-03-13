@@ -9,7 +9,7 @@ def main():
         print("Erro ao carregar imagem")
         return
 
-    ksize = (7, 7)
+    ksize = (21, 21)
     sigma = 1.5
     img_gauss = cv2.GaussianBlur(img, ksize, sigma)
 
@@ -20,8 +20,8 @@ def main():
     g16 = img.astype(np.int16) - lap
     g = np.clip(g16, 0, 255).astype(np.uint8)
 
-    cv2.namedWindow("original", 2)
-    cv2.imshow("original", img)
+    cv2.namedWindow("original", 3)
+    cv2.imshow("original", img_gauss)
 
     cv2.namedWindow("laplaciano", 2)
     cv2.imshow("laplaciano", lap_abs)
