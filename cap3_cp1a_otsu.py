@@ -1,9 +1,6 @@
 import cv2
 
-# Atividade CP1-a — Segmentacao Otsu com e sem suavizacao Gaussiana
-# Teste com pelo menos 2 imagens alterando IMG_PATH
-
-IMG_PATH = R"lena.jpg"
+IMG_PATH = R"figura26a.png"
 
 def main():
     img = cv2.imread(IMG_PATH, cv2.IMREAD_GRAYSCALE)
