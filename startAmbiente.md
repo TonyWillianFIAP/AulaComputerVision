@@ -5,4 +5,6 @@ crtl+shift+ P: venv\Scripts\activate
 abrir bash e instalar dependências
 python.exe -m pip install --upgrade pip
 pip install opencv-python numpy
+pip install scikit-learn
+pip install tensorflow
 ```

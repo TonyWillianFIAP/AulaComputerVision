@@ -1,1 +1,0 @@
-"Segmentação + erosão"
